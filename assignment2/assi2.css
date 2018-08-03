@@ -1,0 +1,49 @@
+/* K9-3917 */
+.back {background-color: #000000;}
+
+.tables{
+    border-style: solid;
+    border-width: 5px;
+    border-color: skyblue;
+}
+
+.button {
+    background-color: #FFFF00;
+    border: 2px solid #FFFF00;
+    color: #000000;
+    padding: 10px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 1s;
+    border-radius: 12px;
+}
+.button:hover {background-color: #03A9F4;}
+.button1 {border: 2px solid #3E2723;}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #B3E5FC;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10px 05px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 10px 75px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #03A9F4;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.input{font-size: 20px;}
